@@ -1,6 +1,10 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
+  background-repeat: no-repeat;
+}
+body .imgbox img {
+  width: 100%;
 }
 
 header {
@@ -24,7 +28,35 @@ header .menu nav a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#welcome .box .imgbox img {
-  width: 1560px;
-  height: 1100px;
+#welcome .box .textbox {
+  width: 60vw;
+  position: absolute;
+  z-index: 99;
+  top: 250px;
+  line-height: 1.5;
+  flex-direction: column;
+}
+#welcome .box .textbox h1 {
+  color: white;
+  font-size: 35px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#welcome .box .textbox h3 {
+  color: white;
+  font-size: 70px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#welcome .box .textbox .btn {
+  margin: 40px 0;
+  width: 15vw;
+  height: 10vh;
+  background-color: #ffc800;
+}
+#welcome .box .textbox .btn h5 {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
 }/*# sourceMappingURL=style.css.map */
