@@ -27,8 +27,41 @@ header .menu nav a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#welcome .box {
+#welcome {
   height: 100vh;
   background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
   background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#welcome .textbox {
+  line-height: 1.6;
+  flex-direction: column;
+}
+#welcome .textbox h1 {
+  margin: 55px 0 0 0;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: white;
+}
+#welcome .textbox h3 {
+  font-size: 75px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+#welcome .textbox .btn {
+  margin: 40px 0 0 0;
+  width: 14vw;
+  height: 9vh;
+  background-color: #ffc800;
+}
+#welcome .textbox .btn h5 {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
 }/*# sourceMappingURL=style.css.map */
