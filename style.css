@@ -24,7 +24,6 @@ header .menu nav a {
   margin: 0 13px;
   color: #d2d2d4;
   font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 @media screen and (max-width: 992px) {
   header .menu nav {
@@ -50,28 +49,26 @@ header .menu nav a {
 }
 #welcome .textbox h1 {
   margin: 55px 0 0 0;
-  font-size: 40px;
-  font-family: "Times New Roman", Times, serif;
+  font-size: 45px;
   font-style: italic;
   color: white;
 }
 #welcome .textbox h3 {
-  font-size: 75px;
+  font-size: 77px;
   font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
 #welcome .textbox .btn {
   margin: 40px 0 0 0;
-  width: 14vw;
-  height: 9vh;
+  width: 220px;
+  height: 70px;
   background-color: #ffc800;
+  border-radius: 6px;
 }
 #welcome .textbox .btn h5 {
   color: white;
   font-size: 18px;
   font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
 }
 @media screen and (max-width: 900px) {
   #welcome .textbox {
@@ -83,5 +80,55 @@ header .menu nav a {
   }
   #welcome .textbox h3 {
     font-size: 60px;
+  }
+}
+
+#services {
+  padding: 100px 0;
+}
+#services .bgc h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+#services .bgc h3 {
+  font-size: 19px;
+  font-style: italic;
+  color: #6a7380;
+}
+#services .box {
+  padding: 70px 0;
+  flex-direction: column;
+}
+#services .box .icon {
+  background-color: #ffc800;
+  width: 125px;
+  height: 125px;
+  color: white;
+  border-radius: 50%;
+}
+#services .box .icon i {
+  font-size: 70px;
+}
+#services .box .textbox {
+  line-height: 1.5;
+}
+#services .box .textbox h2 {
+  margin: 10px 0 0 0;
+  font-size: 27px;
+  font-weight: 700;
+}
+#services .box .textbox p {
+  margin: 10px 0 0 0;
+  padding: 10px;
+  font-size: 19px;
+  color: #6a7380;
+}
+@media screen and (max-width: 992px) {
+  #services .bgc h3 {
+    margin: 0 0 50px 0;
+  }
+  #services .box {
+    padding: 10px 0;
   }
 }/*# sourceMappingURL=style.css.map */
