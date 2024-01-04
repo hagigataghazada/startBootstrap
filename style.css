@@ -131,4 +131,42 @@ header .menu nav a {
   #services .box {
     padding: 10px 0;
   }
+}
+
+#portfolio {
+  background-color: #f8f9fa;
+}
+#portfolio .bcc {
+  margin: 85px 0 55px;
+  line-height: 1.8;
+}
+#portfolio .bcc h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+#portfolio .bcc h3 {
+  font-size: 19px;
+  color: #6a7380;
+  font-style: italic;
+}
+#portfolio .box {
+  width: 420px;
+  height: 420px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+#portfolio .box .imgbox {
+  width: 420px;
+}
+#portfolio .box .textbox h2 {
+  margin: 20px 0 10px 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+#portfolio .box .textbox h5 {
+  font-size: 18px;
+  font-style: italic;
+  color: #6a7380;
 }/*# sourceMappingURL=style.css.map */
