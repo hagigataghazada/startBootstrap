@@ -153,8 +153,6 @@ header .menu nav a {
   width: 420px;
   height: 420px;
   background-color: white;
-  display: flex;
-  flex-direction: column;
   margin: 10px;
 }
 #portfolio .box .imgbox {
