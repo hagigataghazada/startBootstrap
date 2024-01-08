@@ -17,6 +17,9 @@ header {
 header .menu .imgbox img {
   width: 50%;
 }
+header .menu .imgbox img:hover {
+  cursor: pointer;
+}
 header .menu nav {
   display: block;
 }
@@ -24,6 +27,9 @@ header .menu nav a {
   margin: 0 13px;
   color: #d2d2d4;
   font-size: 16px;
+}
+header .menu nav a:hover {
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) {
   header .menu nav {
@@ -53,10 +59,16 @@ header .menu nav a {
   font-style: italic;
   color: white;
 }
+#welcome .textbox h1:hover {
+  cursor: text;
+}
 #welcome .textbox h3 {
   font-size: 77px;
   font-weight: 700;
   color: white;
+}
+#welcome .textbox h3:hover {
+  cursor: text;
 }
 #welcome .textbox .btn {
   margin: 40px 0 0 0;
@@ -69,6 +81,9 @@ header .menu nav a {
   color: white;
   font-size: 18px;
   font-weight: 700;
+}
+#welcome .textbox .btn h5:hover {
+  cursor: pointer;
 }
 @media screen and (max-width: 900px) {
   #welcome .textbox {
@@ -91,10 +106,16 @@ header .menu nav a {
   font-weight: 700;
   margin: 0 0 20px 0;
 }
+#services .bgc h1:hover {
+  cursor: text;
+}
 #services .bgc h3 {
   font-size: 19px;
   font-style: italic;
   color: #6a7380;
+}
+#services .bgc h3:hover {
+  cursor: text;
 }
 #services .box {
   padding: 70px 0;
@@ -118,11 +139,17 @@ header .menu nav a {
   font-size: 27px;
   font-weight: 700;
 }
+#services .box .textbox h2:hover {
+  cursor: text;
+}
 #services .box .textbox p {
   margin: 10px 0 0 0;
   padding: 10px;
   font-size: 19px;
   color: #6a7380;
+}
+#services .box .textbox p:hover {
+  cursor: text;
 }
 @media screen and (max-width: 992px) {
   #services .bgc h3 {
@@ -139,16 +166,22 @@ header .menu nav a {
 }
 #portfolio .bcc {
   margin: 85px 0 55px;
-  line-height: 1.8;
 }
 #portfolio .bcc h1 {
+  margin: 0 0 20px 0;
   font-size: 40px;
   font-weight: 700;
+}
+#portfolio .bcc h1:hover {
+  cursor: text;
 }
 #portfolio .bcc h3 {
   font-size: 19px;
   color: #6a7380;
   font-style: italic;
+}
+#portfolio .bcc h3:hover {
+  cursor: text;
 }
 #portfolio .box {
   background-color: white;
@@ -157,14 +190,42 @@ header .menu nav a {
 #portfolio .box .imgbox {
   width: 100%;
 }
+#portfolio .box .imgbox img:hover {
+  cursor: pointer;
+}
 #portfolio .box .textbox h2 {
   margin: 15px 0 10px 0;
   font-size: 30px;
   font-weight: 700;
+}
+#portfolio .box .textbox h2:hover {
+  cursor: text;
 }
 #portfolio .box .textbox h5 {
   padding: 0 0 10px;
   font-size: 18px;
   font-style: italic;
   color: #6a7380;
+}
+#portfolio .box .textbox h5:hover {
+  cursor: text;
+}
+
+#about .textbox {
+  margin: 0 0 50px 0;
+}
+#about .textbox h1 {
+  margin: 100px 0 20px 0;
+  font-size: 40px;
+  font-weight: 700;
+}
+#about .textbox h1:hover {
+  cursor: text;
+}
+#about .textbox h3 {
+  font-size: 18px;
+  font-style: italic;
+}
+#about .textbox h3:hover {
+  cursor: text;
 }/*# sourceMappingURL=style.css.map */
